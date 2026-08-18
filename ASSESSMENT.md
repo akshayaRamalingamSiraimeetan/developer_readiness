@@ -258,48 +258,15 @@ You get a merge conflict.
 
 What does that mean? What would you do?
 
+
 ### Scenario 4
-
-You are confused because the documentation says one technology, but you remember us discussing another technology in the meeting.
-
-What should you do?
-
-### Scenario 5
 
 You haven't been assigned a development task yet.
 
 What should you be doing during this week?
 
-**Note:** The expected behavior is NOT "Wait until Akshaya gives me a task."
+**Note:** The expected behavior is NOT "Wait until you are given a task."
 
-You should be:
-- Exploring the assigned technology stack
-- Understanding the documentation
-- Setting up your environment
-- Learning Git/GitHub
-- Running the project if available
-- Understanding the project structure
-- Preparing yourself for development
-- Documenting questions and blockers
-
----
-
-## PART 6 — Practical Project Run
-
-**If the Neuronest development environment has already been provided separately**, follow the team's instructions to run the actual application.
-
-**Do NOT** copy the actual Neuronest source code into this assessment repository.
-
-Tasks:
-1. Clone the actual Neuronest repository (separate from this one)
-2. Create your branch
-3. Install dependencies
-4. Run the Expo project
-5. Open it on an emulator or physical device
-6. Take a screenshot of the running application
-7. Add the screenshot to your Pull Request in this assessment repository
-
-**Note:** Actually running software is more useful than simply asking whether someone "knows Expo."
 
 ---
 
