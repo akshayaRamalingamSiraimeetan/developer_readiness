@@ -13,6 +13,7 @@ Use this repository for the following tasks.
 Clone this repository to your local machine.
 
 **Be able to explain:**
+
 - What `git clone` does
 - Difference between a local repository and the GitHub repository
 
@@ -36,18 +37,18 @@ Inside it, put:
 
 ## What I learned this week
 
-- **Git/GitHub:** 
-- **JavaScript:** 
-- **Expo:** 
-- **Neuronest:** 
+- **Git/GitHub:**
+- **JavaScript:**
+- **Expo:**
+- **Neuronest:**
 
 ## One thing I am still confused about
 
-- 
+-
 
 ## One thing I think I can contribute to the project
 
-- 
+-
 ```
 
 ### 4. Commit your changes
@@ -70,13 +71,16 @@ The PR description should contain:
 
 ```markdown
 ## What I did
-- 
+
+-
 
 ## What I learned
-- 
+
+-
 
 ## Anything I am still unclear about
-- 
+
+-
 ```
 
 **DO NOT** merge your own PR.
@@ -90,6 +94,7 @@ The PR description should contain:
 2. What is a branch and why are we using separate branches instead of working directly on `main`?
 
 3. What does this do?
+
    ```bash
    git pull origin main
    ```
@@ -114,6 +119,7 @@ The PR description should contain:
 ### 1. Variables
 
 What is the difference between:
+
 - `let`
 - `const`
 - `var`
@@ -126,7 +132,7 @@ What is the difference between:
 
 ```javascript
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 ```
 
@@ -134,7 +140,7 @@ and:
 
 ```javascript
 const add = (a, b) => {
-    return a + b;
+  return a + b;
 };
 ```
 
@@ -144,12 +150,13 @@ What will this produce?
 
 ```javascript
 const numbers = [1, 2, 3, 4];
-const result = numbers.map(n => n * 2);
+const result = numbers.map((n) => n * 2);
 ```
 
 ### 4. map, filter, find
 
 Explain what these do:
+
 - `map()`
 - `filter()`
 - `find()`
@@ -162,9 +169,9 @@ What does this represent?
 
 ```javascript
 const child = {
-    name: "Alex",
-    age: 8,
-    interests: ["drawing", "music"]
+  name: "Alex",
+  age: 8,
+  interests: ["drawing", "music"],
 };
 ```
 
@@ -181,6 +188,7 @@ const { name, age } = child;
 ### 7. Async/Await
 
 What is the purpose of:
+
 - `async`
 - `await`
 
@@ -206,7 +214,7 @@ What do you think this means?
 
 ```javascript
 function Welcome() {
-    return <Text>Hello!</Text>;
+  return <Text>Hello!</Text>;
 }
 ```
 
@@ -258,7 +266,6 @@ You get a merge conflict.
 
 What does that mean? What would you do?
 
-
 ### Scenario 4
 
 You haven't been assigned a development task yet.
@@ -266,7 +273,6 @@ You haven't been assigned a development task yet.
 What should you be doing during this week?
 
 **Note:** The expected behavior is NOT "Wait until you are given a task."
-
 
 ---
 
