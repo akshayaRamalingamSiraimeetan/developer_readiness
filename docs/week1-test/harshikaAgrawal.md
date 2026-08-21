@@ -85,13 +85,26 @@ const numbers = [1, 2, 3, 4];
 const result = numbers.map(n => n * 2);
 ```
 
+- [2,4,6,8]
 
 ### 4. map, filter, find
 
 Explain what these do:
-- `map()`
-- `filter()`
-- `find()`
+
+- `map()` - it traces each element of the array and returns a new array on based of the conditions given.
+**example:** let arr = [1,2,3,4];
+                let newarr = arr.map(n => n*3);
+          OUTPUT : [3,6,9,12]    
+
+- `filter()` - it traces each elements of the array and picks out only those elements that the condition satisfies. it returns a new array of the picked out elements.
+**example:** let arr = [1,2,3,4];
+                let newarr = arr.filter(n => n%2);
+            OUTPUT: [2,4]
+
+- `find()` - it searches through the array and returns the 1st element that satisfies the given condition and then stops.
+**example:** let arr = [1,2,3,4,5];
+                let result = arr.find(n => n>3);
+            OUTPUT: 4
 
 Give one simple example of each.
 
@@ -106,8 +119,10 @@ const child = {
     interests: ["drawing", "music"]
 };
 ```
+it is a javascript object. it contains key value pairs.
 
 How would you access the child's name?
+child.name, child.age,child.interests[0]....
 
 ### 6. Destructuring
 
@@ -116,6 +131,7 @@ What does this do?
 ```javascript
 const { name, age } = child;
 ```
+it is also a way of creating a js object. here name and age are the variables.
 
 ### 7. Async/Await
 
@@ -185,11 +201,15 @@ You are assigned: "Implement the login screen."
 
 What would you do before starting?
 
+- 
+
 ### Scenario 2
 
 You are working on your branch and someone else has merged changes into `main`.
 
 What should you do before opening your PR?
+
+- I would switch to the main, pull the latest changes, then switch back to my branch and merge it with the main. this will keep my branch up to date before i may start editing it.
 
 ### Scenario 3
 
@@ -197,9 +217,12 @@ You get a merge conflict.
 
 What does that mean? What would you do?
 
+- merge conflict may occurs when we merge main and branch and there is difference in both the codes. in this case vscode shows the difference and allows you to physically select the code you want.
 
 ### Scenario 4
 
 You haven't been assigned a development task yet.
 
 What should you be doing during this week?
+
+- i will work on the languages needed for it and work on the concept of the idea and get more knowledge regarding it.
