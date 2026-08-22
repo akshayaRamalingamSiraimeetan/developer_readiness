@@ -58,3 +58,149 @@ Examples:
 - `Add week 1 developer assessment`
 - `Fix login form validation`
 
+# Part 3 — JavaScript Basics
+
+## 1. Variables
+
+`let`, `const`, and `var` are used to declare variables in JavaScript.
+
+- `let` is used when the value may need to change.
+- `const` is used when the variable will not be reassigned.
+- `var` is the older way of declaring variables and has different scoping behavior.
+
+In our project, I would normally use `const` by default and `let` when the value needs to change. I would generally avoid `var` in modern JavaScript.
+
+## 2. Functions
+
+Both of these are used to create functions.
+
+```javascript
+function add(a, b) {
+    return a + b;
+}
+```
+
+This is a normal function declaration.
+
+```javascript
+const add = (a, b) => {
+    return a + b;
+};
+```
+
+This is an arrow function. Both functions take `a` and `b` as inputs and return their sum. The main difference here is the syntax used to define them.
+
+## 3. Arrays
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const result = numbers.map(n => n * 2);
+```
+
+The result will be:
+
+```javascript
+[2, 4, 6, 8]
+```
+
+`map()` goes through every element of the array and creates a new array using the returned value.
+
+## 4. map, filter, find
+
+### map()
+
+`map()` transforms every element of an array and returns a new array.
+
+```javascript
+const numbers = [1, 2, 3];
+const result = numbers.map(n => n * 2);
+// [2, 4, 6]
+```
+
+### filter()
+
+`filter()` returns a new array containing only the elements that satisfy a condition.
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const result = numbers.filter(n => n > 2);
+// [3, 4]
+```
+
+### find()
+
+`find()` returns the first element that satisfies a condition.
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const result = numbers.find(n => n > 2);
+// 3
+```
+
+## 5. Objects
+
+```javascript
+const child = {
+    name: "Alex",
+    age: 8,
+    interests: ["drawing", "music"]
+};
+```
+
+This represents an object called `child` containing information about a child, such as name, age, and interests.
+
+The child's name can be accessed using:
+
+```javascript
+child.name
+```
+
+This gives:
+
+```text
+Alex
+```
+
+## 6. Destructuring
+
+```javascript
+const { name, age } = child;
+```
+
+This extracts the `name` and `age` properties from the `child` object into separate variables.
+
+It is a shorter way of writing:
+
+```javascript
+const name = child.name;
+const age = child.age;
+```
+
+## 7. Async/Await
+
+`async` and `await` are used to work with asynchronous operations.
+
+`async` is used to define an asynchronous function, and `await` is used inside an async function to wait for a Promise to complete before continuing.
+
+For example:
+
+```javascript
+async function getChildren() {
+    const response = await fetch("/api/children");
+}
+```
+
+We need this while communicating with a backend/API because sending a request and receiving a response can take some time.
+
+## 8. API
+
+If the backend provides:
+
+```text
+GET /api/children
+```
+
+I think this endpoint is used to request and retrieve children data from the backend.
+
+For example, the backend may return information such as the children's names, ages, or other details, which the application can then use or display.
+
