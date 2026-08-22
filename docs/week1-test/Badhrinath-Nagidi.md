@@ -275,3 +275,32 @@ We might use Expo and React Native instead of building completely separate Andro
 
 This can reduce development time and avoid writing the same application separately for Android and iOS.
 
+# Part 5 — Team Workflow
+
+## Scenario 1
+
+### You are assigned: "Implement the login screen." What would you do before starting?
+
+Before starting, I would first understand the requirements of the login screen and check the existing project structure. I would check whether there are already related components or API endpoints that I need to use. I would also check if another team member is working on related files. Then I would create or use a separate feature branch for the task and start implementing the feature after understanding how it should connect with the backend.
+
+## Scenario 2
+
+### You are working on your branch and someone else has merged changes into main. What should you do before opening your PR?
+
+I should first get the latest changes from main and update my branch with them. If there are any merge conflicts, I would resolve them carefully. After that, I would test my changes again to make sure everything is working correctly before opening the Pull Request.
+
+## Scenario 3
+
+### You get a merge conflict. What does that mean? What would you do?
+
+A merge conflict means Git could not automatically combine changes because different branches have conflicting changes in the same part of a file.
+
+I would check the files containing the conflict, understand the changes from both sides, and decide which changes should be kept or combine them correctly. I would then remove the conflict markers, save the file, and test the application. After resolving the conflict, I would stage and commit the resolved changes.
+
+## Scenario 4
+
+### You haven't been assigned a development task yet. What should you be doing during this week?
+
+I should not simply wait for a task. I would use the time to understand the Neuronest project, read the documentation, set up and run the project, learn the technologies being used, and understand the existing code.
+
+I would also check the available tasks or issues, ask the team where I can contribute, and look for small improvements or documentation that I can work on. This would help me understand the project better and be ready to contribute when a development task is assigned.
