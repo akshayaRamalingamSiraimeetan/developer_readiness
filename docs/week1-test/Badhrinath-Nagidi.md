@@ -204,3 +204,74 @@ I think this endpoint is used to request and retrieve children data from the bac
 
 For example, the backend may return information such as the children's names, ages, or other details, which the application can then use or display.
 
+
+# Part 4 — React / Expo Basics
+
+## 1. What is React?
+
+React is a JavaScript library used to build user interfaces. It allows developers to create reusable components and manage the user interface of an application.
+
+## 2. What is a component?
+
+A component is a reusable part of a user interface.
+
+For example:
+
+```javascript
+function Welcome() {
+    return <Text>Hello!</Text>;
+}
+```
+
+Here, `Welcome` is a component that displays the text `Hello!`. Components help us divide an application into smaller and reusable parts.
+
+## 3. State
+
+`useState()` is used to store and manage data that can change inside a React component.
+
+For example:
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+Here, `count` is the current state and `setCount` is used to update the state.
+
+In Neuronest, we could use state for things such as login information, form input, selected child information, or loading status.
+
+## 4. Props
+
+Props are values or information passed from one React component to another component.
+
+For example:
+
+```javascript
+<Welcome name="Badhrinath" />
+```
+
+Here, `name` is a prop passed to the `Welcome` component.
+
+Props make components reusable because the same component can receive different values.
+
+## 5. Expo
+
+Expo is a development platform and set of tools used with React Native. It makes it easier to develop, run, test, and build mobile applications for Android and iOS.
+
+We are using Expo because it provides tools that make React Native mobile app development easier.
+
+## 6. Running the project
+
+The command used to start an Expo development server is:
+
+```bash
+npx expo start
+```
+
+This starts the Expo development server and provides options to run and test the application on a device or emulator.
+
+## 7. Platform
+
+We might use Expo and React Native instead of building completely separate Android and iOS applications because React Native allows us to share much of the code between both platforms.
+
+This can reduce development time and avoid writing the same application separately for Android and iOS.
+
