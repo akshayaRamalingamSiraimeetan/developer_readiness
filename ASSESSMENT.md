@@ -281,3 +281,41 @@ Once you have completed all sections:
 5. **DO NOT** merge your own PR
 
 Remember: This assessment helps identify learning gaps. Not knowing something is completely normal and expected!
+
+## PART 5 — Team Workflow
+
+### Scenario 1
+
+Before starting the login screen, I would first understand the requirements and expected behavior. I would check the existing project structure and look for any existing authentication code, UI components, designs, or API requirements that I can use.
+
+I would make sure my local `main` branch is up to date and then create a separate feature branch for the login screen.
+
+After implementing the feature, I would test it locally and create a Pull Request when it is ready for review.
+
+### Scenario 2
+
+If someone else has merged changes into `main` while I am working on my branch, I would update my local `main` branch and bring the latest changes into my feature branch before opening my Pull Request.
+
+I would resolve any merge conflicts if necessary, test the application, and push the updated branch.
+
+This ensures that my Pull Request is based on the latest version of `main`.
+
+### Scenario 3
+
+A merge conflict happens when Git cannot automatically combine changes because different branches have modified the same part of a file in incompatible ways.
+
+I would inspect the conflicting files, understand both changes, resolve the conflict appropriately, remove the conflict markers, and test the application.
+
+After resolving the conflict, I would commit the resolution and push the branch again.
+
+### Scenario 4
+
+I should not simply wait for a development task.
+
+I would use the time to set up and explore the project, understand the existing architecture and codebase, review the README and existing issues, learn the technologies being used, and identify areas where I could contribute.
+
+I would also communicate with the team and ask where I could help if I found something that needed attention.
+
+## Completion
+
+I will commit my completed assessment to my branch, push the branch to GitHub, open a Pull Request, request a review, and wait for the review without merging the Pull Request myself.
